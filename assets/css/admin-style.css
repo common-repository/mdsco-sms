@@ -1,0 +1,81 @@
+table.form-table input[type="text"], table.form-table textarea {
+    width: 300px;
+}
+.dbh-metabox-wrap,.dbh-metabox-wrap *{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.dbh-metabox-wrap table {
+    width: 100%;
+}
+.dbh-metabox-wrap table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table;
+}
+.dbh-metabox-wrap table tr{
+    border-bottom: 1px solid #ddd;
+}
+.dbh-metabox-wrap table tr:nth-child(odd) {
+    background-color: #fff;
+}
+.dbh-metabox-wrap table tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+.dbh-metabox-wrap table td{
+    padding: 8px 8px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: top !important;
+}
+.dbh-metabox-wrap table input[type="text"] {
+    width: 100%;
+    max-width: 300px;
+}
+.dbh-metabox-wrap table td label {
+    display: inline-block;
+    font-weight: bold;
+    margin: 0 20px 0 0;
+}
+.widefat.devvn_bh_tablesetting th {
+    padding: 10px;
+}
+table.devvn_bh_tablesetting, table.devvn_bh_tablesetting input[type="text"],
+table.devvn_bh_tablesetting textarea,table.devvn_bh_tablesetting select{
+    width: 100%;
+    max-width: 100%;
+}
+.woo_setting_mess td textarea{
+    width: 100%;
+    max-width: 500px;
+    height: 70px;
+    margin: 10px 0 0 0;
+}
+.woo_setting_mess{
+    width: 100%;
+    vertical-align: top;
+}
+.woo_setting_mess td{
+    vertical-align: top;
+}
+.desc_woo_devvn {
+    padding: 0 13px;
+}
+.setting_typesms h2 {
+    display: inline-block;
+    margin: 0px 20px 0 0;
+}
+.setting_typesms label {
+    margin: 0 20px 0px 0px;
+    position: relative;
+    top: -3px;
+}
+.type_api_table{
+    display: none;
+}
+.type_api_table.active {
+    display: block;
+}
